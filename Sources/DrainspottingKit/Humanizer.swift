@@ -172,6 +172,12 @@ public enum Humanizer {
             return "External media was mounted"
         case "SystemIsActive", "DeclareSystemActivity":
             return "Declared system activity"
+        case "MaintenanceWake":
+            return "Requested a background maintenance wake"
+        case "PreventDiskIdle":
+            return "Kept the disk spun up"
+        case "InteractivePushServiceTask":
+            return "Handled an interactive push notification"
         default:
             return type
         }
@@ -290,6 +296,14 @@ public enum Humanizer {
     }
 
     // MARK: - Formatting helpers
+
+    /// Lowercases only the first character so a title can be dropped mid-sentence
+    /// without destroying proper nouns ("Prevented the Mac…" → "prevented the Mac…",
+    /// never "the mac"). Plain `.lowercased()` mangles Mac, Power Nap, AirDrop, iCloud.
+    public static func midSentence(_ title: String) -> String {
+        guard let first = title.first else { return title }
+        return first.lowercased() + title.dropFirst()
+    }
 
     public static func duration(_ seconds: TimeInterval) -> String {
         let s = Int(seconds.rounded())

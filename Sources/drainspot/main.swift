@@ -74,7 +74,7 @@ func printCulprits(_ culprits: [Culprit], limit: Int = 8) {
     }
     for (index, culprit) in culprits.prefix(limit).enumerated() {
         let held = Humanizer.duration(culprit.awakeHeldSeconds)
-        print("  \(index + 1). \(severityMark(culprit.explanation.severity)) \(bold(culprit.displayName))  \(dim(culprit.explanation.title.lowercased()))  \(cyan(held))")
+        print("  \(index + 1). \(severityMark(culprit.explanation.severity)) \(bold(culprit.displayName))  \(dim(Humanizer.midSentence(culprit.explanation.title)))  \(cyan(held))")
         if culprit.explanation.severity >= .notable {
             print("     \(dim(culprit.explanation.meaning))")
             if let suggestion = culprit.explanation.suggestion {
@@ -157,7 +157,7 @@ Task {
                         assertionName: assertion.name, heldSeconds: assertion.heldSeconds,
                         windowSeconds: max(assertion.heldSeconds, 3600))
                     if internalFlag && !showAll { continue }
-                    print("  \(severityMark(explanation.severity)) \(bold(display)) \(dim("(\(assertion.process), pid \(assertion.pid)))")) — \(explanation.title.lowercased()) for \(cyan(Humanizer.duration(assertion.heldSeconds)))")
+                    print("  \(severityMark(explanation.severity)) \(bold(display)) \(dim("(\(assertion.process), pid \(assertion.pid))")) — \(Humanizer.midSentence(explanation.title)) for \(cyan(Humanizer.duration(assertion.heldSeconds)))")
                 }
             }
             if !live.kernelAssertions.isEmpty {
@@ -229,7 +229,7 @@ Task {
                     causeCounts[title, default: 0] += 1
                 }
                 let summary = causeCounts.sorted { $0.value > $1.value }
-                    .map { "\($0.value)× \($0.key.lowercased())" }
+                    .map { "\($0.value)× \(Humanizer.midSentence($0.key))" }
                     .joined(separator: ", ")
                 print("  \(dim("Wakes: \(session.wakes.count) (\(summary))"))")
             }

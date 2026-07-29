@@ -458,6 +458,29 @@ final class HumanizerTests: XCTestCase {
         XCTAssertFalse(systemInternal)
     }
 
+    func testMidSentencePreservesProperNouns() {
+        // Regression: a blanket .lowercased() turned "Prevented the Mac from
+        // sleeping when idle" into "…the mac…" in CLI and narrative output.
+        XCTAssertEqual(Humanizer.midSentence("Prevented the Mac from sleeping when idle"),
+                       "prevented the Mac from sleeping when idle")
+        XCTAssertEqual(Humanizer.midSentence("Scheduled maintenance (Power Nap)"),
+                       "scheduled maintenance (Power Nap)")
+        XCTAssertEqual(Humanizer.midSentence("Network wake"), "network wake")
+        XCTAssertEqual(Humanizer.midSentence(""), "")
+    }
+
+    /// Every assertion-type description is dropped mid-sentence, so none may start
+    /// with a word whose capitalization is load-bearing beyond the first character.
+    func testAssertionTypeDescriptionsSurviveMidSentence() {
+        for type in Humanizer.sleepPreventingTypes {
+            let described = Humanizer.describeAssertionType(type)
+            let mid = Humanizer.midSentence(described)
+            XCTAssertFalse(mid.contains(" mac "), "\(type) lowercases 'Mac': \(mid)")
+            XCTAssertEqual(mid.dropFirst(), described.dropFirst(),
+                           "\(type) altered beyond its first character")
+        }
+    }
+
     func testDurationFormatting() {
         XCTAssertEqual(Humanizer.duration(45), "45s")
         XCTAssertEqual(Humanizer.duration(600), "10m")
