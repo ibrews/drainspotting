@@ -1,9 +1,10 @@
 MIT License
 
-Scope: this license covers `Sources/DrainspottingKit/`, `Sources/drainspot/`, and
-their tests — the analysis engine and the free CLI. It does NOT cover
-`Sources/Drainspotting/` (the paid menu bar app); see
-`Sources/Drainspotting/LICENSE` for those terms.
+Scope: this license covers everything in this repository — the analysis
+engine (`DrainspottingKit`) and the free CLI (`drainspot`). The paid menu
+bar app (Drainspotting.app, sold at drainspotting.app) is a separate,
+closed-source product built on top of this engine as a normal dependency;
+its source is not in this repository and is not covered by this license.
 
 Copyright (c) 2026 Alex Coulombe Presents
 
