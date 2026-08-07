@@ -19,7 +19,7 @@ while let argument = iterator.next() {
     case "--sessions":
         if let v = iterator.next(), let n = Int(v), n > 0 { sessionCount = min(n, 50) }
     case "--version":
-        print("drainspot 1.0.0")
+        print("drainspot 1.0.1")
         exit(0)
     case "-h", "--help":
         print("""
