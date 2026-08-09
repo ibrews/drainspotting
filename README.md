@@ -54,3 +54,7 @@ MIT — see [LICENSE](LICENSE). This repo is the engine and CLI only; the menu b
 ---
 
 An **Alex Coulombe Presents** production · [drainspotting.app](https://drainspotting.app)
+
+## Support
+
+If you like seeing this kind of thing get built and shared, [donations are always welcome](https://www.alexcoulombepresents.com/support) — they buy hardware, render time, and the freedom to keep giving most of this away.
