@@ -1,0 +1,49 @@
+{
+  "" : {
+    "diagnostics" : "/Users/alex/dev/drainspotting/.build/out/Intermediates.noindex/Drainspotting.build/Debug/DrainspottingKitTests-p.build/Objects-normal/arm64/DrainspottingKitTests-primary.dia",
+    "emit-module-dependencies" : "/Users/alex/dev/drainspotting/.build/out/Intermediates.noindex/Drainspotting.build/Debug/DrainspottingKitTests-p.build/Objects-normal/arm64/DrainspottingKitTests-primary-emit-module.d",
+    "emit-module-diagnostics" : "/Users/alex/dev/drainspotting/.build/out/Intermediates.noindex/Drainspotting.build/Debug/DrainspottingKitTests-p.build/Objects-normal/arm64/DrainspottingKitTests-primary-emit-module.dia",
+    "pch" : "/Users/alex/dev/drainspotting/.build/out/Intermediates.noindex/Drainspotting.build/Debug/DrainspottingKitTests-p.build/Objects-normal/arm64/DrainspottingKitTests-primary-Bridging-header.pch",
+    "swift-dependencies" : "/Users/alex/dev/drainspotting/.build/out/Intermediates.noindex/Drainspotting.build/Debug/DrainspottingKitTests-p.build/Objects-normal/arm64/DrainspottingKitTests-primary.swiftdeps"
+  },
+  "/Users/alex/dev/drainspotting/.build/out/Intermediates.noindex/Drainspotting.build/Debug/DrainspottingKitTests-p.build/DerivedSources/resource_bundle_accessor.swift" : {
+    "const-values" : "/Users/alex/dev/drainspotting/.build/out/Intermediates.noindex/Drainspotting.build/Debug/DrainspottingKitTests-p.build/Objects-normal/arm64/resource_bundle_accessor.swiftconstvalues",
+    "dependencies" : "/Users/alex/dev/drainspotting/.build/out/Intermediates.noindex/Drainspotting.build/Debug/DrainspottingKitTests-p.build/Objects-normal/arm64/resource_bundle_accessor.d",
+    "diagnostics" : "/Users/alex/dev/drainspotting/.build/out/Intermediates.noindex/Drainspotting.build/Debug/DrainspottingKitTests-p.build/Objects-normal/arm64/resource_bundle_accessor.dia",
+    "index-unit-output-path" : "/Drainspotting.build/Debug/DrainspottingKitTests-p.build/Objects-normal/arm64/resource_bundle_accessor.o",
+    "llvm-bc" : "/Users/alex/dev/drainspotting/.build/out/Intermediates.noindex/Drainspotting.build/Debug/DrainspottingKitTests-p.build/Objects-normal/arm64/resource_bundle_accessor.bc",
+    "object" : "/Users/alex/dev/drainspotting/.build/out/Intermediates.noindex/Drainspotting.build/Debug/DrainspottingKitTests-p.build/Objects-normal/arm64/resource_bundle_accessor.o",
+    "swift-dependencies" : "/Users/alex/dev/drainspotting/.build/out/Intermediates.noindex/Drainspotting.build/Debug/DrainspottingKitTests-p.build/Objects-normal/arm64/resource_bundle_accessor.swiftdeps",
+    "swiftmodule" : "/Users/alex/dev/drainspotting/.build/out/Intermediates.noindex/Drainspotting.build/Debug/DrainspottingKitTests-p.build/Objects-normal/arm64/resource_bundle_accessor~partial.swiftmodule"
+  },
+  "/Users/alex/dev/drainspotting/.build/out/Intermediates.noindex/Drainspotting.build/Debug/DrainspottingKitTests-p.build/DerivedSources/test_entry_point.swift" : {
+    "const-values" : "/Users/alex/dev/drainspotting/.build/out/Intermediates.noindex/Drainspotting.build/Debug/DrainspottingKitTests-p.build/Objects-normal/arm64/test_entry_point.swiftconstvalues",
+    "dependencies" : "/Users/alex/dev/drainspotting/.build/out/Intermediates.noindex/Drainspotting.build/Debug/DrainspottingKitTests-p.build/Objects-normal/arm64/test_entry_point.d",
+    "diagnostics" : "/Users/alex/dev/drainspotting/.build/out/Intermediates.noindex/Drainspotting.build/Debug/DrainspottingKitTests-p.build/Objects-normal/arm64/test_entry_point.dia",
+    "index-unit-output-path" : "/Drainspotting.build/Debug/DrainspottingKitTests-p.build/Objects-normal/arm64/test_entry_point.o",
+    "llvm-bc" : "/Users/alex/dev/drainspotting/.build/out/Intermediates.noindex/Drainspotting.build/Debug/DrainspottingKitTests-p.build/Objects-normal/arm64/test_entry_point.bc",
+    "object" : "/Users/alex/dev/drainspotting/.build/out/Intermediates.noindex/Drainspotting.build/Debug/DrainspottingKitTests-p.build/Objects-normal/arm64/test_entry_point.o",
+    "swift-dependencies" : "/Users/alex/dev/drainspotting/.build/out/Intermediates.noindex/Drainspotting.build/Debug/DrainspottingKitTests-p.build/Objects-normal/arm64/test_entry_point.swiftdeps",
+    "swiftmodule" : "/Users/alex/dev/drainspotting/.build/out/Intermediates.noindex/Drainspotting.build/Debug/DrainspottingKitTests-p.build/Objects-normal/arm64/test_entry_point~partial.swiftmodule"
+  },
+  "/Users/alex/dev/drainspotting/Tests/DrainspottingKitTests/DrainspottingKitTests.swift" : {
+    "const-values" : "/Users/alex/dev/drainspotting/.build/out/Intermediates.noindex/Drainspotting.build/Debug/DrainspottingKitTests-p.build/Objects-normal/arm64/DrainspottingKitTests.swiftconstvalues",
+    "dependencies" : "/Users/alex/dev/drainspotting/.build/out/Intermediates.noindex/Drainspotting.build/Debug/DrainspottingKitTests-p.build/Objects-normal/arm64/DrainspottingKitTests.d",
+    "diagnostics" : "/Users/alex/dev/drainspotting/.build/out/Intermediates.noindex/Drainspotting.build/Debug/DrainspottingKitTests-p.build/Objects-normal/arm64/DrainspottingKitTests.dia",
+    "index-unit-output-path" : "/Drainspotting.build/Debug/DrainspottingKitTests-p.build/Objects-normal/arm64/DrainspottingKitTests.o",
+    "llvm-bc" : "/Users/alex/dev/drainspotting/.build/out/Intermediates.noindex/Drainspotting.build/Debug/DrainspottingKitTests-p.build/Objects-normal/arm64/DrainspottingKitTests.bc",
+    "object" : "/Users/alex/dev/drainspotting/.build/out/Intermediates.noindex/Drainspotting.build/Debug/DrainspottingKitTests-p.build/Objects-normal/arm64/DrainspottingKitTests.o",
+    "swift-dependencies" : "/Users/alex/dev/drainspotting/.build/out/Intermediates.noindex/Drainspotting.build/Debug/DrainspottingKitTests-p.build/Objects-normal/arm64/DrainspottingKitTests.swiftdeps",
+    "swiftmodule" : "/Users/alex/dev/drainspotting/.build/out/Intermediates.noindex/Drainspotting.build/Debug/DrainspottingKitTests-p.build/Objects-normal/arm64/DrainspottingKitTests~partial.swiftmodule"
+  },
+  "/Users/alex/dev/drainspotting/Tests/DrainspottingKitTests/LicenseVerifierTests.swift" : {
+    "const-values" : "/Users/alex/dev/drainspotting/.build/out/Intermediates.noindex/Drainspotting.build/Debug/DrainspottingKitTests-p.build/Objects-normal/arm64/LicenseVerifierTests.swiftconstvalues",
+    "dependencies" : "/Users/alex/dev/drainspotting/.build/out/Intermediates.noindex/Drainspotting.build/Debug/DrainspottingKitTests-p.build/Objects-normal/arm64/LicenseVerifierTests.d",
+    "diagnostics" : "/Users/alex/dev/drainspotting/.build/out/Intermediates.noindex/Drainspotting.build/Debug/DrainspottingKitTests-p.build/Objects-normal/arm64/LicenseVerifierTests.dia",
+    "index-unit-output-path" : "/Drainspotting.build/Debug/DrainspottingKitTests-p.build/Objects-normal/arm64/LicenseVerifierTests.o",
+    "llvm-bc" : "/Users/alex/dev/drainspotting/.build/out/Intermediates.noindex/Drainspotting.build/Debug/DrainspottingKitTests-p.build/Objects-normal/arm64/LicenseVerifierTests.bc",
+    "object" : "/Users/alex/dev/drainspotting/.build/out/Intermediates.noindex/Drainspotting.build/Debug/DrainspottingKitTests-p.build/Objects-normal/arm64/LicenseVerifierTests.o",
+    "swift-dependencies" : "/Users/alex/dev/drainspotting/.build/out/Intermediates.noindex/Drainspotting.build/Debug/DrainspottingKitTests-p.build/Objects-normal/arm64/LicenseVerifierTests.swiftdeps",
+    "swiftmodule" : "/Users/alex/dev/drainspotting/.build/out/Intermediates.noindex/Drainspotting.build/Debug/DrainspottingKitTests-p.build/Objects-normal/arm64/LicenseVerifierTests~partial.swiftmodule"
+  }
+}

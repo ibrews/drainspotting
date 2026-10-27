@@ -1,0 +1,99 @@
+{
+  "" : {
+    "diagnostics" : "/Users/alex/dev/drainspotting/.build/out/Intermediates.noindex/Drainspotting.build/Debug/DrainspottingKit-t.build/Objects-normal/arm64/DrainspottingKit-primary.dia",
+    "emit-module-dependencies" : "/Users/alex/dev/drainspotting/.build/out/Intermediates.noindex/Drainspotting.build/Debug/DrainspottingKit-t.build/Objects-normal/arm64/DrainspottingKit-primary-emit-module.d",
+    "emit-module-diagnostics" : "/Users/alex/dev/drainspotting/.build/out/Intermediates.noindex/Drainspotting.build/Debug/DrainspottingKit-t.build/Objects-normal/arm64/DrainspottingKit-primary-emit-module.dia",
+    "pch" : "/Users/alex/dev/drainspotting/.build/out/Intermediates.noindex/Drainspotting.build/Debug/DrainspottingKit-t.build/Objects-normal/arm64/DrainspottingKit-primary-Bridging-header.pch",
+    "swift-dependencies" : "/Users/alex/dev/drainspotting/.build/out/Intermediates.noindex/Drainspotting.build/Debug/DrainspottingKit-t.build/Objects-normal/arm64/DrainspottingKit-primary.swiftdeps"
+  },
+  "/Users/alex/dev/drainspotting/Sources/DrainspottingKit/AssertionsParser.swift" : {
+    "const-values" : "/Users/alex/dev/drainspotting/.build/out/Intermediates.noindex/Drainspotting.build/Debug/DrainspottingKit-t.build/Objects-normal/arm64/AssertionsParser.swiftconstvalues",
+    "dependencies" : "/Users/alex/dev/drainspotting/.build/out/Intermediates.noindex/Drainspotting.build/Debug/DrainspottingKit-t.build/Objects-normal/arm64/AssertionsParser.d",
+    "diagnostics" : "/Users/alex/dev/drainspotting/.build/out/Intermediates.noindex/Drainspotting.build/Debug/DrainspottingKit-t.build/Objects-normal/arm64/AssertionsParser.dia",
+    "index-unit-output-path" : "/Drainspotting.build/Debug/DrainspottingKit-t.build/Objects-normal/arm64/AssertionsParser.o",
+    "llvm-bc" : "/Users/alex/dev/drainspotting/.build/out/Intermediates.noindex/Drainspotting.build/Debug/DrainspottingKit-t.build/Objects-normal/arm64/AssertionsParser.bc",
+    "object" : "/Users/alex/dev/drainspotting/.build/out/Intermediates.noindex/Drainspotting.build/Debug/DrainspottingKit-t.build/Objects-normal/arm64/AssertionsParser.o",
+    "swift-dependencies" : "/Users/alex/dev/drainspotting/.build/out/Intermediates.noindex/Drainspotting.build/Debug/DrainspottingKit-t.build/Objects-normal/arm64/AssertionsParser.swiftdeps",
+    "swiftmodule" : "/Users/alex/dev/drainspotting/.build/out/Intermediates.noindex/Drainspotting.build/Debug/DrainspottingKit-t.build/Objects-normal/arm64/AssertionsParser~partial.swiftmodule"
+  },
+  "/Users/alex/dev/drainspotting/Sources/DrainspottingKit/BatterySampler.swift" : {
+    "const-values" : "/Users/alex/dev/drainspotting/.build/out/Intermediates.noindex/Drainspotting.build/Debug/DrainspottingKit-t.build/Objects-normal/arm64/BatterySampler.swiftconstvalues",
+    "dependencies" : "/Users/alex/dev/drainspotting/.build/out/Intermediates.noindex/Drainspotting.build/Debug/DrainspottingKit-t.build/Objects-normal/arm64/BatterySampler.d",
+    "diagnostics" : "/Users/alex/dev/drainspotting/.build/out/Intermediates.noindex/Drainspotting.build/Debug/DrainspottingKit-t.build/Objects-normal/arm64/BatterySampler.dia",
+    "index-unit-output-path" : "/Drainspotting.build/Debug/DrainspottingKit-t.build/Objects-normal/arm64/BatterySampler.o",
+    "llvm-bc" : "/Users/alex/dev/drainspotting/.build/out/Intermediates.noindex/Drainspotting.build/Debug/DrainspottingKit-t.build/Objects-normal/arm64/BatterySampler.bc",
+    "object" : "/Users/alex/dev/drainspotting/.build/out/Intermediates.noindex/Drainspotting.build/Debug/DrainspottingKit-t.build/Objects-normal/arm64/BatterySampler.o",
+    "swift-dependencies" : "/Users/alex/dev/drainspotting/.build/out/Intermediates.noindex/Drainspotting.build/Debug/DrainspottingKit-t.build/Objects-normal/arm64/BatterySampler.swiftdeps",
+    "swiftmodule" : "/Users/alex/dev/drainspotting/.build/out/Intermediates.noindex/Drainspotting.build/Debug/DrainspottingKit-t.build/Objects-normal/arm64/BatterySampler~partial.swiftmodule"
+  },
+  "/Users/alex/dev/drainspotting/Sources/DrainspottingKit/CulpritAnalyzer.swift" : {
+    "const-values" : "/Users/alex/dev/drainspotting/.build/out/Intermediates.noindex/Drainspotting.build/Debug/DrainspottingKit-t.build/Objects-normal/arm64/CulpritAnalyzer.swiftconstvalues",
+    "dependencies" : "/Users/alex/dev/drainspotting/.build/out/Intermediates.noindex/Drainspotting.build/Debug/DrainspottingKit-t.build/Objects-normal/arm64/CulpritAnalyzer.d",
+    "diagnostics" : "/Users/alex/dev/drainspotting/.build/out/Intermediates.noindex/Drainspotting.build/Debug/DrainspottingKit-t.build/Objects-normal/arm64/CulpritAnalyzer.dia",
+    "index-unit-output-path" : "/Drainspotting.build/Debug/DrainspottingKit-t.build/Objects-normal/arm64/CulpritAnalyzer.o",
+    "llvm-bc" : "/Users/alex/dev/drainspotting/.build/out/Intermediates.noindex/Drainspotting.build/Debug/DrainspottingKit-t.build/Objects-normal/arm64/CulpritAnalyzer.bc",
+    "object" : "/Users/alex/dev/drainspotting/.build/out/Intermediates.noindex/Drainspotting.build/Debug/DrainspottingKit-t.build/Objects-normal/arm64/CulpritAnalyzer.o",
+    "swift-dependencies" : "/Users/alex/dev/drainspotting/.build/out/Intermediates.noindex/Drainspotting.build/Debug/DrainspottingKit-t.build/Objects-normal/arm64/CulpritAnalyzer.swiftdeps",
+    "swiftmodule" : "/Users/alex/dev/drainspotting/.build/out/Intermediates.noindex/Drainspotting.build/Debug/DrainspottingKit-t.build/Objects-normal/arm64/CulpritAnalyzer~partial.swiftmodule"
+  },
+  "/Users/alex/dev/drainspotting/Sources/DrainspottingKit/Humanizer.swift" : {
+    "const-values" : "/Users/alex/dev/drainspotting/.build/out/Intermediates.noindex/Drainspotting.build/Debug/DrainspottingKit-t.build/Objects-normal/arm64/Humanizer.swiftconstvalues",
+    "dependencies" : "/Users/alex/dev/drainspotting/.build/out/Intermediates.noindex/Drainspotting.build/Debug/DrainspottingKit-t.build/Objects-normal/arm64/Humanizer.d",
+    "diagnostics" : "/Users/alex/dev/drainspotting/.build/out/Intermediates.noindex/Drainspotting.build/Debug/DrainspottingKit-t.build/Objects-normal/arm64/Humanizer.dia",
+    "index-unit-output-path" : "/Drainspotting.build/Debug/DrainspottingKit-t.build/Objects-normal/arm64/Humanizer.o",
+    "llvm-bc" : "/Users/alex/dev/drainspotting/.build/out/Intermediates.noindex/Drainspotting.build/Debug/DrainspottingKit-t.build/Objects-normal/arm64/Humanizer.bc",
+    "object" : "/Users/alex/dev/drainspotting/.build/out/Intermediates.noindex/Drainspotting.build/Debug/DrainspottingKit-t.build/Objects-normal/arm64/Humanizer.o",
+    "swift-dependencies" : "/Users/alex/dev/drainspotting/.build/out/Intermediates.noindex/Drainspotting.build/Debug/DrainspottingKit-t.build/Objects-normal/arm64/Humanizer.swiftdeps",
+    "swiftmodule" : "/Users/alex/dev/drainspotting/.build/out/Intermediates.noindex/Drainspotting.build/Debug/DrainspottingKit-t.build/Objects-normal/arm64/Humanizer~partial.swiftmodule"
+  },
+  "/Users/alex/dev/drainspotting/Sources/DrainspottingKit/LicenseVerifier.swift" : {
+    "const-values" : "/Users/alex/dev/drainspotting/.build/out/Intermediates.noindex/Drainspotting.build/Debug/DrainspottingKit-t.build/Objects-normal/arm64/LicenseVerifier.swiftconstvalues",
+    "dependencies" : "/Users/alex/dev/drainspotting/.build/out/Intermediates.noindex/Drainspotting.build/Debug/DrainspottingKit-t.build/Objects-normal/arm64/LicenseVerifier.d",
+    "diagnostics" : "/Users/alex/dev/drainspotting/.build/out/Intermediates.noindex/Drainspotting.build/Debug/DrainspottingKit-t.build/Objects-normal/arm64/LicenseVerifier.dia",
+    "index-unit-output-path" : "/Drainspotting.build/Debug/DrainspottingKit-t.build/Objects-normal/arm64/LicenseVerifier.o",
+    "llvm-bc" : "/Users/alex/dev/drainspotting/.build/out/Intermediates.noindex/Drainspotting.build/Debug/DrainspottingKit-t.build/Objects-normal/arm64/LicenseVerifier.bc",
+    "object" : "/Users/alex/dev/drainspotting/.build/out/Intermediates.noindex/Drainspotting.build/Debug/DrainspottingKit-t.build/Objects-normal/arm64/LicenseVerifier.o",
+    "swift-dependencies" : "/Users/alex/dev/drainspotting/.build/out/Intermediates.noindex/Drainspotting.build/Debug/DrainspottingKit-t.build/Objects-normal/arm64/LicenseVerifier.swiftdeps",
+    "swiftmodule" : "/Users/alex/dev/drainspotting/.build/out/Intermediates.noindex/Drainspotting.build/Debug/DrainspottingKit-t.build/Objects-normal/arm64/LicenseVerifier~partial.swiftmodule"
+  },
+  "/Users/alex/dev/drainspotting/Sources/DrainspottingKit/Models.swift" : {
+    "const-values" : "/Users/alex/dev/drainspotting/.build/out/Intermediates.noindex/Drainspotting.build/Debug/DrainspottingKit-t.build/Objects-normal/arm64/Models.swiftconstvalues",
+    "dependencies" : "/Users/alex/dev/drainspotting/.build/out/Intermediates.noindex/Drainspotting.build/Debug/DrainspottingKit-t.build/Objects-normal/arm64/Models.d",
+    "diagnostics" : "/Users/alex/dev/drainspotting/.build/out/Intermediates.noindex/Drainspotting.build/Debug/DrainspottingKit-t.build/Objects-normal/arm64/Models.dia",
+    "index-unit-output-path" : "/Drainspotting.build/Debug/DrainspottingKit-t.build/Objects-normal/arm64/Models.o",
+    "llvm-bc" : "/Users/alex/dev/drainspotting/.build/out/Intermediates.noindex/Drainspotting.build/Debug/DrainspottingKit-t.build/Objects-normal/arm64/Models.bc",
+    "object" : "/Users/alex/dev/drainspotting/.build/out/Intermediates.noindex/Drainspotting.build/Debug/DrainspottingKit-t.build/Objects-normal/arm64/Models.o",
+    "swift-dependencies" : "/Users/alex/dev/drainspotting/.build/out/Intermediates.noindex/Drainspotting.build/Debug/DrainspottingKit-t.build/Objects-normal/arm64/Models.swiftdeps",
+    "swiftmodule" : "/Users/alex/dev/drainspotting/.build/out/Intermediates.noindex/Drainspotting.build/Debug/DrainspottingKit-t.build/Objects-normal/arm64/Models~partial.swiftmodule"
+  },
+  "/Users/alex/dev/drainspotting/Sources/DrainspottingKit/PMSetLogParser.swift" : {
+    "const-values" : "/Users/alex/dev/drainspotting/.build/out/Intermediates.noindex/Drainspotting.build/Debug/DrainspottingKit-t.build/Objects-normal/arm64/PMSetLogParser.swiftconstvalues",
+    "dependencies" : "/Users/alex/dev/drainspotting/.build/out/Intermediates.noindex/Drainspotting.build/Debug/DrainspottingKit-t.build/Objects-normal/arm64/PMSetLogParser.d",
+    "diagnostics" : "/Users/alex/dev/drainspotting/.build/out/Intermediates.noindex/Drainspotting.build/Debug/DrainspottingKit-t.build/Objects-normal/arm64/PMSetLogParser.dia",
+    "index-unit-output-path" : "/Drainspotting.build/Debug/DrainspottingKit-t.build/Objects-normal/arm64/PMSetLogParser.o",
+    "llvm-bc" : "/Users/alex/dev/drainspotting/.build/out/Intermediates.noindex/Drainspotting.build/Debug/DrainspottingKit-t.build/Objects-normal/arm64/PMSetLogParser.bc",
+    "object" : "/Users/alex/dev/drainspotting/.build/out/Intermediates.noindex/Drainspotting.build/Debug/DrainspottingKit-t.build/Objects-normal/arm64/PMSetLogParser.o",
+    "swift-dependencies" : "/Users/alex/dev/drainspotting/.build/out/Intermediates.noindex/Drainspotting.build/Debug/DrainspottingKit-t.build/Objects-normal/arm64/PMSetLogParser.swiftdeps",
+    "swiftmodule" : "/Users/alex/dev/drainspotting/.build/out/Intermediates.noindex/Drainspotting.build/Debug/DrainspottingKit-t.build/Objects-normal/arm64/PMSetLogParser~partial.swiftmodule"
+  },
+  "/Users/alex/dev/drainspotting/Sources/DrainspottingKit/PowerDataProvider.swift" : {
+    "const-values" : "/Users/alex/dev/drainspotting/.build/out/Intermediates.noindex/Drainspotting.build/Debug/DrainspottingKit-t.build/Objects-normal/arm64/PowerDataProvider.swiftconstvalues",
+    "dependencies" : "/Users/alex/dev/drainspotting/.build/out/Intermediates.noindex/Drainspotting.build/Debug/DrainspottingKit-t.build/Objects-normal/arm64/PowerDataProvider.d",
+    "diagnostics" : "/Users/alex/dev/drainspotting/.build/out/Intermediates.noindex/Drainspotting.build/Debug/DrainspottingKit-t.build/Objects-normal/arm64/PowerDataProvider.dia",
+    "index-unit-output-path" : "/Drainspotting.build/Debug/DrainspottingKit-t.build/Objects-normal/arm64/PowerDataProvider.o",
+    "llvm-bc" : "/Users/alex/dev/drainspotting/.build/out/Intermediates.noindex/Drainspotting.build/Debug/DrainspottingKit-t.build/Objects-normal/arm64/PowerDataProvider.bc",
+    "object" : "/Users/alex/dev/drainspotting/.build/out/Intermediates.noindex/Drainspotting.build/Debug/DrainspottingKit-t.build/Objects-normal/arm64/PowerDataProvider.o",
+    "swift-dependencies" : "/Users/alex/dev/drainspotting/.build/out/Intermediates.noindex/Drainspotting.build/Debug/DrainspottingKit-t.build/Objects-normal/arm64/PowerDataProvider.swiftdeps",
+    "swiftmodule" : "/Users/alex/dev/drainspotting/.build/out/Intermediates.noindex/Drainspotting.build/Debug/DrainspottingKit-t.build/Objects-normal/arm64/PowerDataProvider~partial.swiftmodule"
+  },
+  "/Users/alex/dev/drainspotting/Sources/DrainspottingKit/SessionBuilder.swift" : {
+    "const-values" : "/Users/alex/dev/drainspotting/.build/out/Intermediates.noindex/Drainspotting.build/Debug/DrainspottingKit-t.build/Objects-normal/arm64/SessionBuilder.swiftconstvalues",
+    "dependencies" : "/Users/alex/dev/drainspotting/.build/out/Intermediates.noindex/Drainspotting.build/Debug/DrainspottingKit-t.build/Objects-normal/arm64/SessionBuilder.d",
+    "diagnostics" : "/Users/alex/dev/drainspotting/.build/out/Intermediates.noindex/Drainspotting.build/Debug/DrainspottingKit-t.build/Objects-normal/arm64/SessionBuilder.dia",
+    "index-unit-output-path" : "/Drainspotting.build/Debug/DrainspottingKit-t.build/Objects-normal/arm64/SessionBuilder.o",
+    "llvm-bc" : "/Users/alex/dev/drainspotting/.build/out/Intermediates.noindex/Drainspotting.build/Debug/DrainspottingKit-t.build/Objects-normal/arm64/SessionBuilder.bc",
+    "object" : "/Users/alex/dev/drainspotting/.build/out/Intermediates.noindex/Drainspotting.build/Debug/DrainspottingKit-t.build/Objects-normal/arm64/SessionBuilder.o",
+    "swift-dependencies" : "/Users/alex/dev/drainspotting/.build/out/Intermediates.noindex/Drainspotting.build/Debug/DrainspottingKit-t.build/Objects-normal/arm64/SessionBuilder.swiftdeps",
+    "swiftmodule" : "/Users/alex/dev/drainspotting/.build/out/Intermediates.noindex/Drainspotting.build/Debug/DrainspottingKit-t.build/Objects-normal/arm64/SessionBuilder~partial.swiftmodule"
+  }
+}

@@ -1,0 +1,17 @@
+Target dependency graph (6 targets)
+Target 'AllIncludingTests' in project 'Aggregate'
+➜ Explicit dependency on target 'DrainspottingKitTests-product' in project 'Drainspotting'
+➜ Explicit dependency on target 'Drainspotting_DrainspottingKitTests' in project 'Drainspotting'
+➜ Dependency on target 'DrainspottingKitTests-product' in project 'Drainspotting' via transitive dependency through 'DrainspottingKitTests-test-runner'
+➜ Explicit dependency on target 'DrainspottingKit-product' in project 'Drainspotting'
+➜ Explicit dependency on target 'drainspot-product' in project 'Drainspotting'
+➜ Explicit dependency on target 'DrainspottingKit' in project 'Drainspotting'
+Target 'drainspot-product' in project 'Drainspotting'
+➜ Explicit dependency on target 'DrainspottingKit' in project 'Drainspotting'
+Target 'DrainspottingKit-product' in project 'Drainspotting'
+➜ Explicit dependency on target 'DrainspottingKit' in project 'Drainspotting'
+Target 'DrainspottingKitTests-product' in project 'Drainspotting'
+➜ Explicit dependency on target 'Drainspotting_DrainspottingKitTests' in project 'Drainspotting'
+➜ Explicit dependency on target 'DrainspottingKit' in project 'Drainspotting'
+Target 'DrainspottingKit' in project 'Drainspotting' (no dependencies)
+Target 'Drainspotting_DrainspottingKitTests' in project 'Drainspotting' (no dependencies)

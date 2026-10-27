@@ -1,0 +1,68 @@
+{
+  "": {
+    "swift-dependencies": "/Users/alex/dev/drainspotting/.build/arm64-apple-macosx/debug/DrainspottingKit.build/primary.swiftdeps"
+  },
+  "/Users/alex/dev/drainspotting/Sources/DrainspottingKit/AssertionsParser.swift": {
+    "dependencies": "/Users/alex/dev/drainspotting/.build/arm64-apple-macosx/debug/DrainspottingKit.build/AssertionsParser.d",
+    "object": "/Users/alex/dev/drainspotting/.build/arm64-apple-macosx/debug/DrainspottingKit.build/AssertionsParser.swift.o",
+    "swiftmodule": "/Users/alex/dev/drainspotting/.build/arm64-apple-macosx/debug/DrainspottingKit.build/AssertionsParser~partial.swiftmodule",
+    "swift-dependencies": "/Users/alex/dev/drainspotting/.build/arm64-apple-macosx/debug/DrainspottingKit.build/AssertionsParser.swiftdeps",
+    "diagnostics": "/Users/alex/dev/drainspotting/.build/arm64-apple-macosx/debug/DrainspottingKit.build/AssertionsParser.dia"
+  },
+  "/Users/alex/dev/drainspotting/Sources/DrainspottingKit/BatterySampler.swift": {
+    "dependencies": "/Users/alex/dev/drainspotting/.build/arm64-apple-macosx/debug/DrainspottingKit.build/BatterySampler.d",
+    "object": "/Users/alex/dev/drainspotting/.build/arm64-apple-macosx/debug/DrainspottingKit.build/BatterySampler.swift.o",
+    "swiftmodule": "/Users/alex/dev/drainspotting/.build/arm64-apple-macosx/debug/DrainspottingKit.build/BatterySampler~partial.swiftmodule",
+    "swift-dependencies": "/Users/alex/dev/drainspotting/.build/arm64-apple-macosx/debug/DrainspottingKit.build/BatterySampler.swiftdeps",
+    "diagnostics": "/Users/alex/dev/drainspotting/.build/arm64-apple-macosx/debug/DrainspottingKit.build/BatterySampler.dia"
+  },
+  "/Users/alex/dev/drainspotting/Sources/DrainspottingKit/CulpritAnalyzer.swift": {
+    "dependencies": "/Users/alex/dev/drainspotting/.build/arm64-apple-macosx/debug/DrainspottingKit.build/CulpritAnalyzer.d",
+    "object": "/Users/alex/dev/drainspotting/.build/arm64-apple-macosx/debug/DrainspottingKit.build/CulpritAnalyzer.swift.o",
+    "swiftmodule": "/Users/alex/dev/drainspotting/.build/arm64-apple-macosx/debug/DrainspottingKit.build/CulpritAnalyzer~partial.swiftmodule",
+    "swift-dependencies": "/Users/alex/dev/drainspotting/.build/arm64-apple-macosx/debug/DrainspottingKit.build/CulpritAnalyzer.swiftdeps",
+    "diagnostics": "/Users/alex/dev/drainspotting/.build/arm64-apple-macosx/debug/DrainspottingKit.build/CulpritAnalyzer.dia"
+  },
+  "/Users/alex/dev/drainspotting/Sources/DrainspottingKit/Humanizer.swift": {
+    "dependencies": "/Users/alex/dev/drainspotting/.build/arm64-apple-macosx/debug/DrainspottingKit.build/Humanizer.d",
+    "object": "/Users/alex/dev/drainspotting/.build/arm64-apple-macosx/debug/DrainspottingKit.build/Humanizer.swift.o",
+    "swiftmodule": "/Users/alex/dev/drainspotting/.build/arm64-apple-macosx/debug/DrainspottingKit.build/Humanizer~partial.swiftmodule",
+    "swift-dependencies": "/Users/alex/dev/drainspotting/.build/arm64-apple-macosx/debug/DrainspottingKit.build/Humanizer.swiftdeps",
+    "diagnostics": "/Users/alex/dev/drainspotting/.build/arm64-apple-macosx/debug/DrainspottingKit.build/Humanizer.dia"
+  },
+  "/Users/alex/dev/drainspotting/Sources/DrainspottingKit/LicenseVerifier.swift": {
+    "dependencies": "/Users/alex/dev/drainspotting/.build/arm64-apple-macosx/debug/DrainspottingKit.build/LicenseVerifier.d",
+    "object": "/Users/alex/dev/drainspotting/.build/arm64-apple-macosx/debug/DrainspottingKit.build/LicenseVerifier.swift.o",
+    "swiftmodule": "/Users/alex/dev/drainspotting/.build/arm64-apple-macosx/debug/DrainspottingKit.build/LicenseVerifier~partial.swiftmodule",
+    "swift-dependencies": "/Users/alex/dev/drainspotting/.build/arm64-apple-macosx/debug/DrainspottingKit.build/LicenseVerifier.swiftdeps",
+    "diagnostics": "/Users/alex/dev/drainspotting/.build/arm64-apple-macosx/debug/DrainspottingKit.build/LicenseVerifier.dia"
+  },
+  "/Users/alex/dev/drainspotting/Sources/DrainspottingKit/Models.swift": {
+    "dependencies": "/Users/alex/dev/drainspotting/.build/arm64-apple-macosx/debug/DrainspottingKit.build/Models.d",
+    "object": "/Users/alex/dev/drainspotting/.build/arm64-apple-macosx/debug/DrainspottingKit.build/Models.swift.o",
+    "swiftmodule": "/Users/alex/dev/drainspotting/.build/arm64-apple-macosx/debug/DrainspottingKit.build/Models~partial.swiftmodule",
+    "swift-dependencies": "/Users/alex/dev/drainspotting/.build/arm64-apple-macosx/debug/DrainspottingKit.build/Models.swiftdeps",
+    "diagnostics": "/Users/alex/dev/drainspotting/.build/arm64-apple-macosx/debug/DrainspottingKit.build/Models.dia"
+  },
+  "/Users/alex/dev/drainspotting/Sources/DrainspottingKit/PMSetLogParser.swift": {
+    "dependencies": "/Users/alex/dev/drainspotting/.build/arm64-apple-macosx/debug/DrainspottingKit.build/PMSetLogParser.d",
+    "object": "/Users/alex/dev/drainspotting/.build/arm64-apple-macosx/debug/DrainspottingKit.build/PMSetLogParser.swift.o",
+    "swiftmodule": "/Users/alex/dev/drainspotting/.build/arm64-apple-macosx/debug/DrainspottingKit.build/PMSetLogParser~partial.swiftmodule",
+    "swift-dependencies": "/Users/alex/dev/drainspotting/.build/arm64-apple-macosx/debug/DrainspottingKit.build/PMSetLogParser.swiftdeps",
+    "diagnostics": "/Users/alex/dev/drainspotting/.build/arm64-apple-macosx/debug/DrainspottingKit.build/PMSetLogParser.dia"
+  },
+  "/Users/alex/dev/drainspotting/Sources/DrainspottingKit/PowerDataProvider.swift": {
+    "dependencies": "/Users/alex/dev/drainspotting/.build/arm64-apple-macosx/debug/DrainspottingKit.build/PowerDataProvider.d",
+    "object": "/Users/alex/dev/drainspotting/.build/arm64-apple-macosx/debug/DrainspottingKit.build/PowerDataProvider.swift.o",
+    "swiftmodule": "/Users/alex/dev/drainspotting/.build/arm64-apple-macosx/debug/DrainspottingKit.build/PowerDataProvider~partial.swiftmodule",
+    "swift-dependencies": "/Users/alex/dev/drainspotting/.build/arm64-apple-macosx/debug/DrainspottingKit.build/PowerDataProvider.swiftdeps",
+    "diagnostics": "/Users/alex/dev/drainspotting/.build/arm64-apple-macosx/debug/DrainspottingKit.build/PowerDataProvider.dia"
+  },
+  "/Users/alex/dev/drainspotting/Sources/DrainspottingKit/SessionBuilder.swift": {
+    "dependencies": "/Users/alex/dev/drainspotting/.build/arm64-apple-macosx/debug/DrainspottingKit.build/SessionBuilder.d",
+    "object": "/Users/alex/dev/drainspotting/.build/arm64-apple-macosx/debug/DrainspottingKit.build/SessionBuilder.swift.o",
+    "swiftmodule": "/Users/alex/dev/drainspotting/.build/arm64-apple-macosx/debug/DrainspottingKit.build/SessionBuilder~partial.swiftmodule",
+    "swift-dependencies": "/Users/alex/dev/drainspotting/.build/arm64-apple-macosx/debug/DrainspottingKit.build/SessionBuilder.swiftdeps",
+    "diagnostics": "/Users/alex/dev/drainspotting/.build/arm64-apple-macosx/debug/DrainspottingKit.build/SessionBuilder.dia"
+  }
+}

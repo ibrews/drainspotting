@@ -1,0 +1,56 @@
+{
+  "" : {
+    "const-values" : "/Users/alex/dev/drainspotting/.build/out/Intermediates.noindex/Drainspotting.build/Release/DrainspottingKit-t.build/Objects-normal/arm64/DrainspottingKit-primary.swiftconstvalues",
+    "dependencies" : "/Users/alex/dev/drainspotting/.build/out/Intermediates.noindex/Drainspotting.build/Release/DrainspottingKit-t.build/Objects-normal/arm64/DrainspottingKit-primary.d",
+    "diagnostics" : "/Users/alex/dev/drainspotting/.build/out/Intermediates.noindex/Drainspotting.build/Release/DrainspottingKit-t.build/Objects-normal/arm64/DrainspottingKit-primary.dia",
+    "emit-module-dependencies" : "/Users/alex/dev/drainspotting/.build/out/Intermediates.noindex/Drainspotting.build/Release/DrainspottingKit-t.build/Objects-normal/arm64/DrainspottingKit-primary-emit-module.d",
+    "emit-module-diagnostics" : "/Users/alex/dev/drainspotting/.build/out/Intermediates.noindex/Drainspotting.build/Release/DrainspottingKit-t.build/Objects-normal/arm64/DrainspottingKit-primary-emit-module.dia",
+    "pch" : "/Users/alex/dev/drainspotting/.build/out/Intermediates.noindex/Drainspotting.build/Release/DrainspottingKit-t.build/Objects-normal/arm64/DrainspottingKit-primary-Bridging-header.pch",
+    "swift-dependencies" : "/Users/alex/dev/drainspotting/.build/out/Intermediates.noindex/Drainspotting.build/Release/DrainspottingKit-t.build/Objects-normal/arm64/DrainspottingKit-primary.swiftdeps"
+  },
+  "/Users/alex/dev/drainspotting/Sources/DrainspottingKit/AssertionsParser.swift" : {
+    "index-unit-output-path" : "/Drainspotting.build/Release/DrainspottingKit-t.build/Objects-normal/arm64/AssertionsParser.o",
+    "llvm-bc" : "/Users/alex/dev/drainspotting/.build/out/Intermediates.noindex/Drainspotting.build/Release/DrainspottingKit-t.build/Objects-normal/arm64/AssertionsParser.bc",
+    "object" : "/Users/alex/dev/drainspotting/.build/out/Intermediates.noindex/Drainspotting.build/Release/DrainspottingKit-t.build/Objects-normal/arm64/AssertionsParser.o"
+  },
+  "/Users/alex/dev/drainspotting/Sources/DrainspottingKit/BatterySampler.swift" : {
+    "index-unit-output-path" : "/Drainspotting.build/Release/DrainspottingKit-t.build/Objects-normal/arm64/BatterySampler.o",
+    "llvm-bc" : "/Users/alex/dev/drainspotting/.build/out/Intermediates.noindex/Drainspotting.build/Release/DrainspottingKit-t.build/Objects-normal/arm64/BatterySampler.bc",
+    "object" : "/Users/alex/dev/drainspotting/.build/out/Intermediates.noindex/Drainspotting.build/Release/DrainspottingKit-t.build/Objects-normal/arm64/BatterySampler.o"
+  },
+  "/Users/alex/dev/drainspotting/Sources/DrainspottingKit/CulpritAnalyzer.swift" : {
+    "index-unit-output-path" : "/Drainspotting.build/Release/DrainspottingKit-t.build/Objects-normal/arm64/CulpritAnalyzer.o",
+    "llvm-bc" : "/Users/alex/dev/drainspotting/.build/out/Intermediates.noindex/Drainspotting.build/Release/DrainspottingKit-t.build/Objects-normal/arm64/CulpritAnalyzer.bc",
+    "object" : "/Users/alex/dev/drainspotting/.build/out/Intermediates.noindex/Drainspotting.build/Release/DrainspottingKit-t.build/Objects-normal/arm64/CulpritAnalyzer.o"
+  },
+  "/Users/alex/dev/drainspotting/Sources/DrainspottingKit/Humanizer.swift" : {
+    "index-unit-output-path" : "/Drainspotting.build/Release/DrainspottingKit-t.build/Objects-normal/arm64/Humanizer.o",
+    "llvm-bc" : "/Users/alex/dev/drainspotting/.build/out/Intermediates.noindex/Drainspotting.build/Release/DrainspottingKit-t.build/Objects-normal/arm64/Humanizer.bc",
+    "object" : "/Users/alex/dev/drainspotting/.build/out/Intermediates.noindex/Drainspotting.build/Release/DrainspottingKit-t.build/Objects-normal/arm64/Humanizer.o"
+  },
+  "/Users/alex/dev/drainspotting/Sources/DrainspottingKit/LicenseVerifier.swift" : {
+    "index-unit-output-path" : "/Drainspotting.build/Release/DrainspottingKit-t.build/Objects-normal/arm64/LicenseVerifier.o",
+    "llvm-bc" : "/Users/alex/dev/drainspotting/.build/out/Intermediates.noindex/Drainspotting.build/Release/DrainspottingKit-t.build/Objects-normal/arm64/LicenseVerifier.bc",
+    "object" : "/Users/alex/dev/drainspotting/.build/out/Intermediates.noindex/Drainspotting.build/Release/DrainspottingKit-t.build/Objects-normal/arm64/LicenseVerifier.o"
+  },
+  "/Users/alex/dev/drainspotting/Sources/DrainspottingKit/Models.swift" : {
+    "index-unit-output-path" : "/Drainspotting.build/Release/DrainspottingKit-t.build/Objects-normal/arm64/Models.o",
+    "llvm-bc" : "/Users/alex/dev/drainspotting/.build/out/Intermediates.noindex/Drainspotting.build/Release/DrainspottingKit-t.build/Objects-normal/arm64/Models.bc",
+    "object" : "/Users/alex/dev/drainspotting/.build/out/Intermediates.noindex/Drainspotting.build/Release/DrainspottingKit-t.build/Objects-normal/arm64/Models.o"
+  },
+  "/Users/alex/dev/drainspotting/Sources/DrainspottingKit/PMSetLogParser.swift" : {
+    "index-unit-output-path" : "/Drainspotting.build/Release/DrainspottingKit-t.build/Objects-normal/arm64/PMSetLogParser.o",
+    "llvm-bc" : "/Users/alex/dev/drainspotting/.build/out/Intermediates.noindex/Drainspotting.build/Release/DrainspottingKit-t.build/Objects-normal/arm64/PMSetLogParser.bc",
+    "object" : "/Users/alex/dev/drainspotting/.build/out/Intermediates.noindex/Drainspotting.build/Release/DrainspottingKit-t.build/Objects-normal/arm64/PMSetLogParser.o"
+  },
+  "/Users/alex/dev/drainspotting/Sources/DrainspottingKit/PowerDataProvider.swift" : {
+    "index-unit-output-path" : "/Drainspotting.build/Release/DrainspottingKit-t.build/Objects-normal/arm64/PowerDataProvider.o",
+    "llvm-bc" : "/Users/alex/dev/drainspotting/.build/out/Intermediates.noindex/Drainspotting.build/Release/DrainspottingKit-t.build/Objects-normal/arm64/PowerDataProvider.bc",
+    "object" : "/Users/alex/dev/drainspotting/.build/out/Intermediates.noindex/Drainspotting.build/Release/DrainspottingKit-t.build/Objects-normal/arm64/PowerDataProvider.o"
+  },
+  "/Users/alex/dev/drainspotting/Sources/DrainspottingKit/SessionBuilder.swift" : {
+    "index-unit-output-path" : "/Drainspotting.build/Release/DrainspottingKit-t.build/Objects-normal/arm64/SessionBuilder.o",
+    "llvm-bc" : "/Users/alex/dev/drainspotting/.build/out/Intermediates.noindex/Drainspotting.build/Release/DrainspottingKit-t.build/Objects-normal/arm64/SessionBuilder.bc",
+    "object" : "/Users/alex/dev/drainspotting/.build/out/Intermediates.noindex/Drainspotting.build/Release/DrainspottingKit-t.build/Objects-normal/arm64/SessionBuilder.o"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "": {
+    "swift-dependencies": "/Users/alex/dev/drainspotting/.build/arm64-apple-macosx/debug/drainspot.build/primary.swiftdeps"
+  },
+  "/Users/alex/dev/drainspotting/Sources/drainspot/main.swift": {
+    "dependencies": "/Users/alex/dev/drainspotting/.build/arm64-apple-macosx/debug/drainspot.build/main.d",
+    "object": "/Users/alex/dev/drainspotting/.build/arm64-apple-macosx/debug/drainspot.build/main.swift.o",
+    "swiftmodule": "/Users/alex/dev/drainspotting/.build/arm64-apple-macosx/debug/drainspot.build/main~partial.swiftmodule",
+    "swift-dependencies": "/Users/alex/dev/drainspotting/.build/arm64-apple-macosx/debug/drainspot.build/main.swiftdeps",
+    "diagnostics": "/Users/alex/dev/drainspotting/.build/arm64-apple-macosx/debug/drainspot.build/main.dia"
+  }
+}

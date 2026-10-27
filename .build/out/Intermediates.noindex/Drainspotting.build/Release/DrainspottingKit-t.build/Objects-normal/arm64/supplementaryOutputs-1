@@ -1,0 +1,12 @@
+{
+  "/Users/alex/dev/drainspotting/Sources/DrainspottingKit/AssertionsParser.swift" : {
+    "abi-baseline-json" : "/Users/alex/dev/drainspotting/.build/out/Intermediates.noindex/Drainspotting.build/Release/DrainspottingKit-t.build/Objects-normal/arm64/DrainspottingKit.abi.json",
+    "const-values" : "/Users/alex/dev/drainspotting/.build/out/Intermediates.noindex/Drainspotting.build/Release/DrainspottingKit-t.build/Objects-normal/arm64/DrainspottingKit-primary.swiftconstvalues",
+    "dependencies" : "/Users/alex/dev/drainspotting/.build/out/Intermediates.noindex/Drainspotting.build/Release/DrainspottingKit-t.build/Objects-normal/arm64/DrainspottingKit-primary.d",
+    "diagnostics" : "/Users/alex/dev/drainspotting/.build/out/Intermediates.noindex/Drainspotting.build/Release/DrainspottingKit-t.build/Objects-normal/arm64/DrainspottingKit-primary.dia",
+    "objc-header" : "/Users/alex/dev/drainspotting/.build/out/Intermediates.noindex/Drainspotting.build/Release/DrainspottingKit-t.build/Objects-normal/arm64/DrainspottingKit-Swift.h",
+    "swiftdoc" : "/Users/alex/dev/drainspotting/.build/out/Intermediates.noindex/Drainspotting.build/Release/DrainspottingKit-t.build/Objects-normal/arm64/DrainspottingKit.swiftdoc",
+    "swiftmodule" : "/Users/alex/dev/drainspotting/.build/out/Intermediates.noindex/Drainspotting.build/Release/DrainspottingKit-t.build/Objects-normal/arm64/DrainspottingKit.swiftmodule",
+    "swiftsourceinfo" : "/Users/alex/dev/drainspotting/.build/out/Intermediates.noindex/Drainspotting.build/Release/DrainspottingKit-t.build/Objects-normal/arm64/DrainspottingKit.swiftsourceinfo"
+  }
+}
