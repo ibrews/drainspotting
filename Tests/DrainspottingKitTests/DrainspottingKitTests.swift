@@ -486,6 +486,14 @@ final class HumanizerTests: XCTestCase {
         XCTAssertFalse(systemInternal)
     }
 
+    func testDuetActivityIdsAreShortened() {
+        XCTAssertEqual(
+            Humanizer.friendlyRequestInfo("com.apple.dasd:502:com.apple.GenerativeFunctions.PeriodicTasks.SystemAppInstall.PostBuddy"),
+            "background task SystemAppInstall.PostBuddy")
+        XCTAssertEqual(Humanizer.friendlyRequestInfo("DHCP renewal"), "DHCP lease renewal")
+        XCTAssertEqual(Humanizer.friendlyRequestInfo("something else"), "something else")
+    }
+
     func testMidSentencePreservesProperNouns() {
         // Regression: a blanket .lowercased() turned "Prevented the Mac from
         // sleeping when idle" into "…the mac…" in CLI and narrative output.
