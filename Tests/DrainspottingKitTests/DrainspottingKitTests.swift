@@ -153,6 +153,34 @@ final class PMSetLogParserTests: XCTestCase {
     func testEmptyInput() {
         XCTAssertEqual(PMSetLogParser.parse("").count, 0)
     }
+
+    /// The hand-rolled timestamp decoder must agree with DateFormatter
+    /// byte-for-byte on every shape pmset emits, including negative and
+    /// half-hour offsets, leap days, year boundaries, and midnight.
+    func testFastTimestampMatchesDateFormatter() {
+        let samples = [
+            "2026-07-23 00:56:03 -0700", "2026-10-27 11:52:21 -0700", "2024-02-29 23:59:59 +0000",
+            "2025-12-31 23:59:59 -0500", "2026-01-01 00:00:00 +0100", "2026-06-15 12:30:00 +0530",
+            "2026-03-08 02:30:00 -0800", "2026-11-01 01:30:00 -0700", "1999-01-01 00:00:00 +0000",
+            "2026-10-27 18:00:00 -1000", "2026-10-27 18:00:00 +1345",
+        ]
+        for s in samples {
+            let expected = PMSetLogParser.dateFormatter.date(from: s)
+            XCTAssertNotNil(expected, s)
+            XCTAssertEqual(PMSetLogParser.parseTimestamp(s), expected, s)
+        }
+    }
+
+    func testFastTimestampRejectsOddShapes() {
+        // Anything not exactly the 25-byte pmset shape falls through to the
+        // formatter (or nil) instead of silently producing a wrong date.
+        XCTAssertNil(PMSetLogParser.parseTimestamp("2026-10-27 11:52:21 -070"))
+        XCTAssertNil(PMSetLogParser.parseTimestamp("2026-10-27T11:52:21 -0700"))
+        XCTAssertNil(PMSetLogParser.parseTimestamp("2026-13-27 11:52:21 -0700"))
+        XCTAssertNil(PMSetLogParser.parseTimestamp("2026-10-27 24:52:21 -0700"))
+        XCTAssertNil(PMSetLogParser.parseTimestamp("2026-10-27 11:52:21 x0700"))
+        XCTAssertNil(PMSetLogParser.parseTimestamp("２026-10-27 11:52:21 -0700")) // full-width digit
+    }
 }
 
 // MARK: - Live assertions parser
