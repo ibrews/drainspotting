@@ -1,0 +1,179 @@
+client:
+  name: basic
+  file-system: device-agnostic
+tools: {}
+targets:
+  "DrainspottingKit-arm64-apple-macosx-debug.module": ["<DrainspottingKit-arm64-apple-macosx-debug.module>"]
+  "DrainspottingKitTests-arm64-apple-macosx-debug.module": ["<DrainspottingKitTests-arm64-apple-macosx-debug.module>"]
+  "DrainspottingPackageTests-arm64-apple-macosx-debug.module": ["<DrainspottingPackageTests-arm64-apple-macosx-debug.module>"]
+  "DrainspottingPackageTests-arm64-apple-macosx-debug.test": ["<DrainspottingPackageTests-arm64-apple-macosx-debug.test>"]
+  "PackageStructure": ["<PackageStructure>"]
+  "drainspot-arm64-apple-macosx-debug.exe": ["<drainspot-arm64-apple-macosx-debug.exe>"]
+  "drainspot-arm64-apple-macosx-debug.module": ["<drainspot-arm64-apple-macosx-debug.module>"]
+  "main": ["<DrainspottingKit-arm64-apple-macosx-debug.module>","<drainspot-arm64-apple-macosx-debug.exe>","<drainspot-arm64-apple-macosx-debug.module>"]
+  "test": ["<DrainspottingKit-arm64-apple-macosx-debug.module>","<DrainspottingKitTests-arm64-apple-macosx-debug.module>","<DrainspottingPackageTests-arm64-apple-macosx-debug.test>","<drainspot-arm64-apple-macosx-debug.exe>","<drainspot-arm64-apple-macosx-debug.module>"]
+default: "main"
+nodes:
+  "/Users/alex/dev/drainspotting/Sources/DrainspottingKit/":
+    is-directory-structure: true
+    content-exclusion-patterns: [".git",".build"]
+  "/Users/alex/dev/drainspotting/Sources/drainspot/":
+    is-directory-structure: true
+    content-exclusion-patterns: [".git",".build"]
+  "/Users/alex/dev/drainspotting/Tests/DrainspottingKitTests/":
+    is-directory-structure: true
+    content-exclusion-patterns: [".git",".build"]
+  "/Users/alex/dev/drainspotting/.build/arm64-apple-macosx/debug/drainspot":
+    is-mutated: true
+commands:
+  "/Users/alex/dev/drainspotting/.build/arm64-apple-macosx/debug/DrainspottingKit.build/sources":
+    tool: write-auxiliary-file
+    inputs: ["<sources-file-list>","/Users/alex/dev/drainspotting/Sources/DrainspottingKit/AssertionsParser.swift","/Users/alex/dev/drainspotting/Sources/DrainspottingKit/BatterySampler.swift","/Users/alex/dev/drainspotting/Sources/DrainspottingKit/CulpritAnalyzer.swift","/Users/alex/dev/drainspotting/Sources/DrainspottingKit/Humanizer.swift","/Users/alex/dev/drainspotting/Sources/DrainspottingKit/LicenseVerifier.swift","/Users/alex/dev/drainspotting/Sources/DrainspottingKit/Models.swift","/Users/alex/dev/drainspotting/Sources/DrainspottingKit/PMSetLogParser.swift","/Users/alex/dev/drainspotting/Sources/DrainspottingKit/PowerDataProvider.swift","/Users/alex/dev/drainspotting/Sources/DrainspottingKit/SessionBuilder.swift"]
+    outputs: ["/Users/alex/dev/drainspotting/.build/arm64-apple-macosx/debug/DrainspottingKit.build/sources"]
+    description: "Write auxiliary file /Users/alex/dev/drainspotting/.build/arm64-apple-macosx/debug/DrainspottingKit.build/sources"
+
+  "/Users/alex/dev/drainspotting/.build/arm64-apple-macosx/debug/DrainspottingKitTests.build/sources":
+    tool: write-auxiliary-file
+    inputs: ["<sources-file-list>","/Users/alex/dev/drainspotting/Tests/DrainspottingKitTests/DrainspottingKitTests.swift","/Users/alex/dev/drainspotting/Tests/DrainspottingKitTests/LicenseVerifierTests.swift","/Users/alex/dev/drainspotting/.build/arm64-apple-macosx/debug/DrainspottingKitTests.build/DerivedSources/resource_bundle_accessor.swift"]
+    outputs: ["/Users/alex/dev/drainspotting/.build/arm64-apple-macosx/debug/DrainspottingKitTests.build/sources"]
+    description: "Write auxiliary file /Users/alex/dev/drainspotting/.build/arm64-apple-macosx/debug/DrainspottingKitTests.build/sources"
+
+  "/Users/alex/dev/drainspotting/.build/arm64-apple-macosx/debug/DrainspottingPackageTests.build/sources":
+    tool: write-auxiliary-file
+    inputs: ["<sources-file-list>","/Users/alex/dev/drainspotting/.build/arm64-apple-macosx/debug/DrainspottingPackageTests.derived/runner.swift"]
+    outputs: ["/Users/alex/dev/drainspotting/.build/arm64-apple-macosx/debug/DrainspottingPackageTests.build/sources"]
+    description: "Write auxiliary file /Users/alex/dev/drainspotting/.build/arm64-apple-macosx/debug/DrainspottingPackageTests.build/sources"
+
+  "/Users/alex/dev/drainspotting/.build/arm64-apple-macosx/debug/DrainspottingPackageTests.derived/runner.swift":
+    tool: test-entry-point-tool
+    inputs: []
+    outputs: ["/Users/alex/dev/drainspotting/.build/arm64-apple-macosx/debug/DrainspottingPackageTests.derived/runner.swift"]
+
+  "/Users/alex/dev/drainspotting/.build/arm64-apple-macosx/debug/DrainspottingPackageTests.product/Objects.LinkFileList":
+    tool: write-auxiliary-file
+    inputs: ["<link-file-list>","/Users/alex/dev/drainspotting/.build/arm64-apple-macosx/debug/DrainspottingKit.build/AssertionsParser.swift.o","/Users/alex/dev/drainspotting/.build/arm64-apple-macosx/debug/DrainspottingKit.build/BatterySampler.swift.o","/Users/alex/dev/drainspotting/.build/arm64-apple-macosx/debug/DrainspottingKit.build/CulpritAnalyzer.swift.o","/Users/alex/dev/drainspotting/.build/arm64-apple-macosx/debug/DrainspottingKit.build/Humanizer.swift.o","/Users/alex/dev/drainspotting/.build/arm64-apple-macosx/debug/DrainspottingKit.build/LicenseVerifier.swift.o","/Users/alex/dev/drainspotting/.build/arm64-apple-macosx/debug/DrainspottingKit.build/Models.swift.o","/Users/alex/dev/drainspotting/.build/arm64-apple-macosx/debug/DrainspottingKit.build/PMSetLogParser.swift.o","/Users/alex/dev/drainspotting/.build/arm64-apple-macosx/debug/DrainspottingKit.build/PowerDataProvider.swift.o","/Users/alex/dev/drainspotting/.build/arm64-apple-macosx/debug/DrainspottingKit.build/SessionBuilder.swift.o","/Users/alex/dev/drainspotting/.build/arm64-apple-macosx/debug/DrainspottingKitTests.build/DrainspottingKitTests.swift.o","/Users/alex/dev/drainspotting/.build/arm64-apple-macosx/debug/DrainspottingKitTests.build/LicenseVerifierTests.swift.o","/Users/alex/dev/drainspotting/.build/arm64-apple-macosx/debug/DrainspottingKitTests.build/resource_bundle_accessor.swift.o","/Users/alex/dev/drainspotting/.build/arm64-apple-macosx/debug/DrainspottingPackageTests.build/runner.swift.o"]
+    outputs: ["/Users/alex/dev/drainspotting/.build/arm64-apple-macosx/debug/DrainspottingPackageTests.product/Objects.LinkFileList"]
+    description: "Write auxiliary file /Users/alex/dev/drainspotting/.build/arm64-apple-macosx/debug/DrainspottingPackageTests.product/Objects.LinkFileList"
+
+  "/Users/alex/dev/drainspotting/.build/arm64-apple-macosx/debug/Drainspotting_DrainspottingKitTests.bundle/Fixtures":
+    tool: copy-tool
+    inputs: ["/Users/alex/dev/drainspotting/Tests/DrainspottingKitTests/Fixtures/"]
+    outputs: ["/Users/alex/dev/drainspotting/.build/arm64-apple-macosx/debug/Drainspotting_DrainspottingKitTests.bundle/Fixtures/"]
+    description: "Copying /Users/alex/dev/drainspotting/Tests/DrainspottingKitTests/Fixtures"
+
+  "/Users/alex/dev/drainspotting/.build/arm64-apple-macosx/debug/drainspot-entitlement.plist":
+    tool: write-auxiliary-file
+    inputs: ["<entitlement-plist>","<com.apple.security.get-task-allow>"]
+    outputs: ["/Users/alex/dev/drainspotting/.build/arm64-apple-macosx/debug/drainspot-entitlement.plist"]
+    description: "Write auxiliary file /Users/alex/dev/drainspotting/.build/arm64-apple-macosx/debug/drainspot-entitlement.plist"
+
+  "/Users/alex/dev/drainspotting/.build/arm64-apple-macosx/debug/drainspot.build/sources":
+    tool: write-auxiliary-file
+    inputs: ["<sources-file-list>","/Users/alex/dev/drainspotting/Sources/drainspot/main.swift"]
+    outputs: ["/Users/alex/dev/drainspotting/.build/arm64-apple-macosx/debug/drainspot.build/sources"]
+    description: "Write auxiliary file /Users/alex/dev/drainspotting/.build/arm64-apple-macosx/debug/drainspot.build/sources"
+
+  "/Users/alex/dev/drainspotting/.build/arm64-apple-macosx/debug/drainspot.product/Objects.LinkFileList":
+    tool: write-auxiliary-file
+    inputs: ["<link-file-list>","/Users/alex/dev/drainspotting/.build/arm64-apple-macosx/debug/DrainspottingKit.build/AssertionsParser.swift.o","/Users/alex/dev/drainspotting/.build/arm64-apple-macosx/debug/DrainspottingKit.build/BatterySampler.swift.o","/Users/alex/dev/drainspotting/.build/arm64-apple-macosx/debug/DrainspottingKit.build/CulpritAnalyzer.swift.o","/Users/alex/dev/drainspotting/.build/arm64-apple-macosx/debug/DrainspottingKit.build/Humanizer.swift.o","/Users/alex/dev/drainspotting/.build/arm64-apple-macosx/debug/DrainspottingKit.build/LicenseVerifier.swift.o","/Users/alex/dev/drainspotting/.build/arm64-apple-macosx/debug/DrainspottingKit.build/Models.swift.o","/Users/alex/dev/drainspotting/.build/arm64-apple-macosx/debug/DrainspottingKit.build/PMSetLogParser.swift.o","/Users/alex/dev/drainspotting/.build/arm64-apple-macosx/debug/DrainspottingKit.build/PowerDataProvider.swift.o","/Users/alex/dev/drainspotting/.build/arm64-apple-macosx/debug/DrainspottingKit.build/SessionBuilder.swift.o","/Users/alex/dev/drainspotting/.build/arm64-apple-macosx/debug/drainspot.build/main.swift.o"]
+    outputs: ["/Users/alex/dev/drainspotting/.build/arm64-apple-macosx/debug/drainspot.product/Objects.LinkFileList"]
+    description: "Write auxiliary file /Users/alex/dev/drainspotting/.build/arm64-apple-macosx/debug/drainspot.product/Objects.LinkFileList"
+
+  "/Users/alex/dev/drainspotting/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt":
+    tool: write-auxiliary-file
+    inputs: ["<swift-get-version>","/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"]
+    outputs: ["/Users/alex/dev/drainspotting/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"]
+    always-out-of-date: "true"
+    description: "Write auxiliary file /Users/alex/dev/drainspotting/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+
+  "<DrainspottingKit-arm64-apple-macosx-debug.module>":
+    tool: phony
+    inputs: ["/Users/alex/dev/drainspotting/.build/arm64-apple-macosx/debug/DrainspottingKit.build/AssertionsParser.swift.o","/Users/alex/dev/drainspotting/.build/arm64-apple-macosx/debug/DrainspottingKit.build/BatterySampler.swift.o","/Users/alex/dev/drainspotting/.build/arm64-apple-macosx/debug/DrainspottingKit.build/CulpritAnalyzer.swift.o","/Users/alex/dev/drainspotting/.build/arm64-apple-macosx/debug/DrainspottingKit.build/Humanizer.swift.o","/Users/alex/dev/drainspotting/.build/arm64-apple-macosx/debug/DrainspottingKit.build/LicenseVerifier.swift.o","/Users/alex/dev/drainspotting/.build/arm64-apple-macosx/debug/DrainspottingKit.build/Models.swift.o","/Users/alex/dev/drainspotting/.build/arm64-apple-macosx/debug/DrainspottingKit.build/PMSetLogParser.swift.o","/Users/alex/dev/drainspotting/.build/arm64-apple-macosx/debug/DrainspottingKit.build/PowerDataProvider.swift.o","/Users/alex/dev/drainspotting/.build/arm64-apple-macosx/debug/DrainspottingKit.build/SessionBuilder.swift.o","/Users/alex/dev/drainspotting/.build/arm64-apple-macosx/debug/Modules/DrainspottingKit.swiftmodule"]
+    outputs: ["<DrainspottingKit-arm64-apple-macosx-debug.module>"]
+
+  "<DrainspottingKitTests-arm64-apple-macosx-debug.module>":
+    tool: phony
+    inputs: ["/Users/alex/dev/drainspotting/.build/arm64-apple-macosx/debug/DrainspottingKitTests.build/DrainspottingKitTests.swift.o","/Users/alex/dev/drainspotting/.build/arm64-apple-macosx/debug/DrainspottingKitTests.build/LicenseVerifierTests.swift.o","/Users/alex/dev/drainspotting/.build/arm64-apple-macosx/debug/DrainspottingKitTests.build/resource_bundle_accessor.swift.o","/Users/alex/dev/drainspotting/.build/arm64-apple-macosx/debug/Modules/DrainspottingKitTests.swiftmodule"]
+    outputs: ["<DrainspottingKitTests-arm64-apple-macosx-debug.module>"]
+
+  "<DrainspottingPackageTests-arm64-apple-macosx-debug.module>":
+    tool: phony
+    inputs: ["/Users/alex/dev/drainspotting/.build/arm64-apple-macosx/debug/DrainspottingPackageTests.build/runner.swift.o","/Users/alex/dev/drainspotting/.build/arm64-apple-macosx/debug/Modules/DrainspottingPackageTests.swiftmodule"]
+    outputs: ["<DrainspottingPackageTests-arm64-apple-macosx-debug.module>"]
+
+  "<DrainspottingPackageTests-arm64-apple-macosx-debug.test>":
+    tool: phony
+    inputs: ["/Users/alex/dev/drainspotting/.build/arm64-apple-macosx/debug/DrainspottingPackageTests.xctest/Contents/MacOS/DrainspottingPackageTests"]
+    outputs: ["<DrainspottingPackageTests-arm64-apple-macosx-debug.test>"]
+
+  "<drainspot-arm64-apple-macosx-debug.exe>":
+    tool: phony
+    inputs: ["<drainspot-arm64-apple-macosx-debug.exe-CodeSigning>"]
+    outputs: ["<drainspot-arm64-apple-macosx-debug.exe>"]
+
+  "<drainspot-arm64-apple-macosx-debug.module>":
+    tool: phony
+    inputs: ["/Users/alex/dev/drainspotting/.build/arm64-apple-macosx/debug/drainspot.build/main.swift.o","/Users/alex/dev/drainspotting/.build/arm64-apple-macosx/debug/Modules/drainspot.swiftmodule"]
+    outputs: ["<drainspot-arm64-apple-macosx-debug.module>"]
+
+  "C.DrainspottingKit-arm64-apple-macosx-debug.module":
+    tool: shell
+    inputs: ["/Users/alex/dev/drainspotting/Sources/DrainspottingKit/AssertionsParser.swift","/Users/alex/dev/drainspotting/Sources/DrainspottingKit/BatterySampler.swift","/Users/alex/dev/drainspotting/Sources/DrainspottingKit/CulpritAnalyzer.swift","/Users/alex/dev/drainspotting/Sources/DrainspottingKit/Humanizer.swift","/Users/alex/dev/drainspotting/Sources/DrainspottingKit/LicenseVerifier.swift","/Users/alex/dev/drainspotting/Sources/DrainspottingKit/Models.swift","/Users/alex/dev/drainspotting/Sources/DrainspottingKit/PMSetLogParser.swift","/Users/alex/dev/drainspotting/Sources/DrainspottingKit/PowerDataProvider.swift","/Users/alex/dev/drainspotting/Sources/DrainspottingKit/SessionBuilder.swift","/Users/alex/dev/drainspotting/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt","/Users/alex/dev/drainspotting/.build/arm64-apple-macosx/debug/DrainspottingKit.build/sources"]
+    outputs: ["/Users/alex/dev/drainspotting/.build/arm64-apple-macosx/debug/DrainspottingKit.build/AssertionsParser.swift.o","/Users/alex/dev/drainspotting/.build/arm64-apple-macosx/debug/DrainspottingKit.build/BatterySampler.swift.o","/Users/alex/dev/drainspotting/.build/arm64-apple-macosx/debug/DrainspottingKit.build/CulpritAnalyzer.swift.o","/Users/alex/dev/drainspotting/.build/arm64-apple-macosx/debug/DrainspottingKit.build/Humanizer.swift.o","/Users/alex/dev/drainspotting/.build/arm64-apple-macosx/debug/DrainspottingKit.build/LicenseVerifier.swift.o","/Users/alex/dev/drainspotting/.build/arm64-apple-macosx/debug/DrainspottingKit.build/Models.swift.o","/Users/alex/dev/drainspotting/.build/arm64-apple-macosx/debug/DrainspottingKit.build/PMSetLogParser.swift.o","/Users/alex/dev/drainspotting/.build/arm64-apple-macosx/debug/DrainspottingKit.build/PowerDataProvider.swift.o","/Users/alex/dev/drainspotting/.build/arm64-apple-macosx/debug/DrainspottingKit.build/SessionBuilder.swift.o","/Users/alex/dev/drainspotting/.build/arm64-apple-macosx/debug/Modules/DrainspottingKit.swiftmodule"]
+    description: "Compiling Swift Module 'DrainspottingKit' (9 sources)"
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc","-module-name","DrainspottingKit","-emit-dependencies","-emit-module","-emit-module-path","/Users/alex/dev/drainspotting/.build/arm64-apple-macosx/debug/Modules/DrainspottingKit.swiftmodule","-output-file-map","/Users/alex/dev/drainspotting/.build/arm64-apple-macosx/debug/DrainspottingKit.build/output-file-map.json","-parse-as-library","-incremental","-c","@/Users/alex/dev/drainspotting/.build/arm64-apple-macosx/debug/DrainspottingKit.build/sources","-I","/Users/alex/dev/drainspotting/.build/arm64-apple-macosx/debug/Modules","-target","arm64-apple-macosx14.0","-incremental","-enable-batch-mode","-serialize-diagnostics","-index-store-path","/Users/alex/dev/drainspotting/.build/arm64-apple-macosx/debug/index/store","-Onone","-enable-testing","-j10","-DSWIFT_PACKAGE","-DDEBUG","-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE","-module-cache-path","/Users/alex/dev/drainspotting/.build/arm64-apple-macosx/debug/ModuleCache","-parseable-output","-parse-as-library","-emit-objc-header","-emit-objc-header-path","/Users/alex/dev/drainspotting/.build/arm64-apple-macosx/debug/DrainspottingKit.build/include/DrainspottingKit-Swift.h","-swift-version","5","-plugin-path","/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing","-sdk","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-I","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib","-L","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib","-g","-Xcc","-isysroot","-Xcc","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk","-Xcc","-F","-Xcc","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-Xcc","-fPIC","-Xcc","-g","-package-name","drainspotting"]
+
+  "C.DrainspottingKitTests-arm64-apple-macosx-debug.module":
+    tool: shell
+    inputs: ["/Users/alex/dev/drainspotting/Tests/DrainspottingKitTests/DrainspottingKitTests.swift","/Users/alex/dev/drainspotting/Tests/DrainspottingKitTests/LicenseVerifierTests.swift","/Users/alex/dev/drainspotting/.build/arm64-apple-macosx/debug/DrainspottingKitTests.build/DerivedSources/resource_bundle_accessor.swift","/Users/alex/dev/drainspotting/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt","<DrainspottingKitTests-arm64-apple-macosx-debug.module-resources>","/Users/alex/dev/drainspotting/.build/arm64-apple-macosx/debug/Modules/DrainspottingKit.swiftmodule","/Users/alex/dev/drainspotting/.build/arm64-apple-macosx/debug/DrainspottingKitTests.build/sources"]
+    outputs: ["/Users/alex/dev/drainspotting/.build/arm64-apple-macosx/debug/DrainspottingKitTests.build/DrainspottingKitTests.swift.o","/Users/alex/dev/drainspotting/.build/arm64-apple-macosx/debug/DrainspottingKitTests.build/LicenseVerifierTests.swift.o","/Users/alex/dev/drainspotting/.build/arm64-apple-macosx/debug/DrainspottingKitTests.build/resource_bundle_accessor.swift.o","/Users/alex/dev/drainspotting/.build/arm64-apple-macosx/debug/Modules/DrainspottingKitTests.swiftmodule"]
+    description: "Compiling Swift Module 'DrainspottingKitTests' (3 sources)"
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc","-module-name","DrainspottingKitTests","-emit-dependencies","-emit-module","-emit-module-path","/Users/alex/dev/drainspotting/.build/arm64-apple-macosx/debug/Modules/DrainspottingKitTests.swiftmodule","-output-file-map","/Users/alex/dev/drainspotting/.build/arm64-apple-macosx/debug/DrainspottingKitTests.build/output-file-map.json","-parse-as-library","-incremental","-c","@/Users/alex/dev/drainspotting/.build/arm64-apple-macosx/debug/DrainspottingKitTests.build/sources","-I","/Users/alex/dev/drainspotting/.build/arm64-apple-macosx/debug/Modules","-target","arm64-apple-macosx14.0","-incremental","-enable-batch-mode","-serialize-diagnostics","-index-store-path","/Users/alex/dev/drainspotting/.build/arm64-apple-macosx/debug/index/store","-Onone","-enable-testing","-Xfrontend","-enable-cross-import-overlays","-j10","-DSWIFT_PACKAGE","-DDEBUG","-DSWIFT_MODULE_RESOURCE_BUNDLE_AVAILABLE","-module-cache-path","/Users/alex/dev/drainspotting/.build/arm64-apple-macosx/debug/ModuleCache","-parseable-output","-parse-as-library","-swift-version","5","-plugin-path","/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing","-sdk","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-I","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib","-L","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib","-g","-Xcc","-isysroot","-Xcc","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk","-Xcc","-F","-Xcc","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-Xcc","-fPIC","-Xcc","-g","-package-name","drainspotting"]
+
+  "C.DrainspottingPackageTests-arm64-apple-macosx-debug.module":
+    tool: shell
+    inputs: ["/Users/alex/dev/drainspotting/.build/arm64-apple-macosx/debug/DrainspottingPackageTests.derived/runner.swift","/Users/alex/dev/drainspotting/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt","/Users/alex/dev/drainspotting/.build/arm64-apple-macosx/debug/Modules/DrainspottingKitTests.swiftmodule","/Users/alex/dev/drainspotting/.build/arm64-apple-macosx/debug/DrainspottingPackageTests.build/sources"]
+    outputs: ["/Users/alex/dev/drainspotting/.build/arm64-apple-macosx/debug/DrainspottingPackageTests.build/runner.swift.o","/Users/alex/dev/drainspotting/.build/arm64-apple-macosx/debug/Modules/DrainspottingPackageTests.swiftmodule"]
+    description: "Compiling Swift Module 'DrainspottingPackageTests' (1 sources)"
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc","-module-name","DrainspottingPackageTests","-emit-dependencies","-emit-module","-emit-module-path","/Users/alex/dev/drainspotting/.build/arm64-apple-macosx/debug/Modules/DrainspottingPackageTests.swiftmodule","-output-file-map","/Users/alex/dev/drainspotting/.build/arm64-apple-macosx/debug/DrainspottingPackageTests.build/output-file-map.json","-parse-as-library","-incremental","-c","@/Users/alex/dev/drainspotting/.build/arm64-apple-macosx/debug/DrainspottingPackageTests.build/sources","-I","/Users/alex/dev/drainspotting/.build/arm64-apple-macosx/debug/Modules","-target","arm64-apple-macosx14.0","-incremental","-enable-batch-mode","-serialize-diagnostics","-index-store-path","/Users/alex/dev/drainspotting/.build/arm64-apple-macosx/debug/index/store","-Onone","-enable-testing","-Xfrontend","-enable-cross-import-overlays","-j10","-DSWIFT_PACKAGE","-DDEBUG","-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE","-module-cache-path","/Users/alex/dev/drainspotting/.build/arm64-apple-macosx/debug/ModuleCache","-parseable-output","-parse-as-library","-emit-objc-header","-emit-objc-header-path","/Users/alex/dev/drainspotting/.build/arm64-apple-macosx/debug/DrainspottingPackageTests.build/include/DrainspottingPackageTests-Swift.h","-plugin-path","/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing","-sdk","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-I","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib","-L","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib","-g","-Xcc","-isysroot","-Xcc","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk","-Xcc","-F","-Xcc","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-Xcc","-fPIC","-Xcc","-g","-package-name","drainspotting"]
+
+  "C.DrainspottingPackageTests-arm64-apple-macosx-debug.test":
+    tool: shell
+    inputs: ["/Users/alex/dev/drainspotting/.build/arm64-apple-macosx/debug/DrainspottingKit.build/AssertionsParser.swift.o","/Users/alex/dev/drainspotting/.build/arm64-apple-macosx/debug/DrainspottingKit.build/BatterySampler.swift.o","/Users/alex/dev/drainspotting/.build/arm64-apple-macosx/debug/DrainspottingKit.build/CulpritAnalyzer.swift.o","/Users/alex/dev/drainspotting/.build/arm64-apple-macosx/debug/DrainspottingKit.build/Humanizer.swift.o","/Users/alex/dev/drainspotting/.build/arm64-apple-macosx/debug/DrainspottingKit.build/LicenseVerifier.swift.o","/Users/alex/dev/drainspotting/.build/arm64-apple-macosx/debug/DrainspottingKit.build/Models.swift.o","/Users/alex/dev/drainspotting/.build/arm64-apple-macosx/debug/DrainspottingKit.build/PMSetLogParser.swift.o","/Users/alex/dev/drainspotting/.build/arm64-apple-macosx/debug/DrainspottingKit.build/PowerDataProvider.swift.o","/Users/alex/dev/drainspotting/.build/arm64-apple-macosx/debug/DrainspottingKit.build/SessionBuilder.swift.o","/Users/alex/dev/drainspotting/.build/arm64-apple-macosx/debug/DrainspottingKitTests.build/DrainspottingKitTests.swift.o","/Users/alex/dev/drainspotting/.build/arm64-apple-macosx/debug/DrainspottingKitTests.build/LicenseVerifierTests.swift.o","/Users/alex/dev/drainspotting/.build/arm64-apple-macosx/debug/DrainspottingKitTests.build/resource_bundle_accessor.swift.o","/Users/alex/dev/drainspotting/.build/arm64-apple-macosx/debug/DrainspottingPackageTests.build/runner.swift.o","/Users/alex/dev/drainspotting/.build/arm64-apple-macosx/debug/DrainspottingPackageTests.product/Objects.LinkFileList"]
+    outputs: ["/Users/alex/dev/drainspotting/.build/arm64-apple-macosx/debug/DrainspottingPackageTests.xctest/Contents/MacOS/DrainspottingPackageTests"]
+    description: "Linking ./.build/arm64-apple-macosx/debug/DrainspottingPackageTests.xctest/Contents/MacOS/DrainspottingPackageTests"
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc","-L","/Users/alex/dev/drainspotting/.build/arm64-apple-macosx/debug","-o","/Users/alex/dev/drainspotting/.build/arm64-apple-macosx/debug/DrainspottingPackageTests.xctest/Contents/MacOS/DrainspottingPackageTests","-module-name","DrainspottingPackageTests","-Xlinker","-no_warn_duplicate_libraries","-Xlinker","-bundle","-Xlinker","-rpath","-Xlinker","@loader_path/../../../","@/Users/alex/dev/drainspotting/.build/arm64-apple-macosx/debug/DrainspottingPackageTests.product/Objects.LinkFileList","-Xlinker","-rpath","-Xlinker","/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift-6.2/macosx","-target","arm64-apple-macosx14.0","-Xlinker","-add_ast_path","-Xlinker","/Users/alex/dev/drainspotting/.build/arm64-apple-macosx/debug/Modules/DrainspottingKit.swiftmodule","-Xlinker","-add_ast_path","-Xlinker","/Users/alex/dev/drainspotting/.build/arm64-apple-macosx/debug/Modules/DrainspottingKitTests.swiftmodule","-Xlinker","-add_ast_path","-Xlinker","/Users/alex/dev/drainspotting/.build/arm64-apple-macosx/debug/Modules/DrainspottingPackageTests.swiftmodule","-plugin-path","/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing","-sdk","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-I","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib","-L","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib","-g"]
+
+  "C.drainspot-arm64-apple-macosx-debug.exe":
+    tool: shell
+    inputs: ["/Users/alex/dev/drainspotting/.build/arm64-apple-macosx/debug/DrainspottingKit.build/AssertionsParser.swift.o","/Users/alex/dev/drainspotting/.build/arm64-apple-macosx/debug/DrainspottingKit.build/BatterySampler.swift.o","/Users/alex/dev/drainspotting/.build/arm64-apple-macosx/debug/DrainspottingKit.build/CulpritAnalyzer.swift.o","/Users/alex/dev/drainspotting/.build/arm64-apple-macosx/debug/DrainspottingKit.build/Humanizer.swift.o","/Users/alex/dev/drainspotting/.build/arm64-apple-macosx/debug/DrainspottingKit.build/LicenseVerifier.swift.o","/Users/alex/dev/drainspotting/.build/arm64-apple-macosx/debug/DrainspottingKit.build/Models.swift.o","/Users/alex/dev/drainspotting/.build/arm64-apple-macosx/debug/DrainspottingKit.build/PMSetLogParser.swift.o","/Users/alex/dev/drainspotting/.build/arm64-apple-macosx/debug/DrainspottingKit.build/PowerDataProvider.swift.o","/Users/alex/dev/drainspotting/.build/arm64-apple-macosx/debug/DrainspottingKit.build/SessionBuilder.swift.o","/Users/alex/dev/drainspotting/.build/arm64-apple-macosx/debug/drainspot.build/main.swift.o","/Users/alex/dev/drainspotting/.build/arm64-apple-macosx/debug/drainspot.product/Objects.LinkFileList"]
+    outputs: ["/Users/alex/dev/drainspotting/.build/arm64-apple-macosx/debug/drainspot"]
+    description: "Linking ./.build/arm64-apple-macosx/debug/drainspot"
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc","-L","/Users/alex/dev/drainspotting/.build/arm64-apple-macosx/debug","-o","/Users/alex/dev/drainspotting/.build/arm64-apple-macosx/debug/drainspot","-module-name","drainspot","-Xlinker","-no_warn_duplicate_libraries","-emit-executable","-Xlinker","-alias","-Xlinker","_drainspot_main","-Xlinker","_main","-Xlinker","-rpath","-Xlinker","@loader_path","@/Users/alex/dev/drainspotting/.build/arm64-apple-macosx/debug/drainspot.product/Objects.LinkFileList","-Xlinker","-rpath","-Xlinker","/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift-6.2/macosx","-target","arm64-apple-macosx14.0","-Xlinker","-add_ast_path","-Xlinker","/Users/alex/dev/drainspotting/.build/arm64-apple-macosx/debug/Modules/DrainspottingKit.swiftmodule","-Xlinker","-add_ast_path","-Xlinker","/Users/alex/dev/drainspotting/.build/arm64-apple-macosx/debug/Modules/drainspot.swiftmodule","-plugin-path","/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing","-sdk","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-I","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib","-L","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib","-g"]
+
+  "C.drainspot-arm64-apple-macosx-debug.exe-entitlements":
+    tool: shell
+    inputs: ["/Users/alex/dev/drainspotting/.build/arm64-apple-macosx/debug/drainspot","/Users/alex/dev/drainspotting/.build/arm64-apple-macosx/debug/drainspot-entitlement.plist"]
+    outputs: ["<drainspot-arm64-apple-macosx-debug.exe-CodeSigning>"]
+    description: "Applying debug entitlements to ./.build/arm64-apple-macosx/debug/drainspot"
+    args: ["codesign","--force","--sign","-","--entitlements","/Users/alex/dev/drainspotting/.build/arm64-apple-macosx/debug/drainspot-entitlement.plist","/Users/alex/dev/drainspotting/.build/arm64-apple-macosx/debug/drainspot"]
+
+  "C.drainspot-arm64-apple-macosx-debug.module":
+    tool: shell
+    inputs: ["/Users/alex/dev/drainspotting/Sources/drainspot/main.swift","/Users/alex/dev/drainspotting/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt","/Users/alex/dev/drainspotting/.build/arm64-apple-macosx/debug/Modules/DrainspottingKit.swiftmodule","/Users/alex/dev/drainspotting/.build/arm64-apple-macosx/debug/drainspot.build/sources"]
+    outputs: ["/Users/alex/dev/drainspotting/.build/arm64-apple-macosx/debug/drainspot.build/main.swift.o","/Users/alex/dev/drainspotting/.build/arm64-apple-macosx/debug/Modules/drainspot.swiftmodule"]
+    description: "Compiling Swift Module 'drainspot' (1 sources)"
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc","-module-name","drainspot","-emit-dependencies","-emit-module","-emit-module-path","/Users/alex/dev/drainspotting/.build/arm64-apple-macosx/debug/Modules/drainspot.swiftmodule","-output-file-map","/Users/alex/dev/drainspotting/.build/arm64-apple-macosx/debug/drainspot.build/output-file-map.json","-incremental","-c","@/Users/alex/dev/drainspotting/.build/arm64-apple-macosx/debug/drainspot.build/sources","-I","/Users/alex/dev/drainspotting/.build/arm64-apple-macosx/debug/Modules","-target","arm64-apple-macosx14.0","-incremental","-enable-batch-mode","-serialize-diagnostics","-index-store-path","/Users/alex/dev/drainspotting/.build/arm64-apple-macosx/debug/index/store","-Onone","-enable-testing","-j10","-DSWIFT_PACKAGE","-DDEBUG","-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE","-module-cache-path","/Users/alex/dev/drainspotting/.build/arm64-apple-macosx/debug/ModuleCache","-parseable-output","-Xfrontend","-entry-point-function-name","-Xfrontend","drainspot_main","-swift-version","5","-plugin-path","/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing","-sdk","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-I","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib","-L","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib","-g","-Xcc","-isysroot","-Xcc","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk","-Xcc","-F","-Xcc","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-Xcc","-fPIC","-Xcc","-g","-package-name","drainspotting"]
+
+  "DrainspottingKitTests-arm64-apple-macosx-debug.module-resources":
+    tool: phony
+    inputs: ["/Users/alex/dev/drainspotting/.build/arm64-apple-macosx/debug/Drainspotting_DrainspottingKitTests.bundle/Fixtures/"]
+    outputs: ["<DrainspottingKitTests-arm64-apple-macosx-debug.module-resources>"]
+
+  "PackageStructure":
+    tool: package-structure-tool
+    inputs: ["/Users/alex/dev/drainspotting/Sources/DrainspottingKit/","/Users/alex/dev/drainspotting/Sources/drainspot/","/Users/alex/dev/drainspotting/Tests/DrainspottingKitTests/","/Users/alex/dev/drainspotting/Package.swift","/Users/alex/dev/drainspotting/Package.resolved"]
+    outputs: ["<PackageStructure>"]
+    description: "Planning build"
+    allow-missing-inputs: true
+

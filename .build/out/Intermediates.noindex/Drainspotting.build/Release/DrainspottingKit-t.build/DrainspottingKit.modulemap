@@ -1,0 +1,4 @@
+module DrainspottingKit {
+header "DrainspottingKit-Swift.h"
+export *
+}

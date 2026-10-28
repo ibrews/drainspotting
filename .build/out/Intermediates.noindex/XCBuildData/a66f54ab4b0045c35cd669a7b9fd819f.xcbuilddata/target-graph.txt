@@ -1,0 +1,4 @@
+Target dependency graph (2 targets)
+Target 'drainspot-product' in project 'Drainspotting'
+➜ Explicit dependency on target 'DrainspottingKit' in project 'Drainspotting'
+Target 'DrainspottingKit' in project 'Drainspotting' (no dependencies)

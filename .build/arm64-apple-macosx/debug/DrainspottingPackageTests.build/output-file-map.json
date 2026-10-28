@@ -1,0 +1,12 @@
+{
+  "": {
+    "swift-dependencies": "/Users/alex/dev/drainspotting/.build/arm64-apple-macosx/debug/DrainspottingPackageTests.build/primary.swiftdeps"
+  },
+  "/Users/alex/dev/drainspotting/.build/arm64-apple-macosx/debug/DrainspottingPackageTests.derived/runner.swift": {
+    "dependencies": "/Users/alex/dev/drainspotting/.build/arm64-apple-macosx/debug/DrainspottingPackageTests.build/runner.d",
+    "object": "/Users/alex/dev/drainspotting/.build/arm64-apple-macosx/debug/DrainspottingPackageTests.build/runner.swift.o",
+    "swiftmodule": "/Users/alex/dev/drainspotting/.build/arm64-apple-macosx/debug/DrainspottingPackageTests.build/runner~partial.swiftmodule",
+    "swift-dependencies": "/Users/alex/dev/drainspotting/.build/arm64-apple-macosx/debug/DrainspottingPackageTests.build/runner.swiftdeps",
+    "diagnostics": "/Users/alex/dev/drainspotting/.build/arm64-apple-macosx/debug/DrainspottingPackageTests.build/runner.dia"
+  }
+}

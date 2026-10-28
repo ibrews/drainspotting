@@ -1,0 +1,16 @@
+{
+  "" : {
+    "const-values" : "/Users/alex/dev/drainspotting/.build/out/Intermediates.noindex/Drainspotting.build/Release/drainspot-p.build/Objects-normal/arm64/drainspot-primary.swiftconstvalues",
+    "dependencies" : "/Users/alex/dev/drainspotting/.build/out/Intermediates.noindex/Drainspotting.build/Release/drainspot-p.build/Objects-normal/arm64/drainspot-primary.d",
+    "diagnostics" : "/Users/alex/dev/drainspotting/.build/out/Intermediates.noindex/Drainspotting.build/Release/drainspot-p.build/Objects-normal/arm64/drainspot-primary.dia",
+    "emit-module-dependencies" : "/Users/alex/dev/drainspotting/.build/out/Intermediates.noindex/Drainspotting.build/Release/drainspot-p.build/Objects-normal/arm64/drainspot-primary-emit-module.d",
+    "emit-module-diagnostics" : "/Users/alex/dev/drainspotting/.build/out/Intermediates.noindex/Drainspotting.build/Release/drainspot-p.build/Objects-normal/arm64/drainspot-primary-emit-module.dia",
+    "pch" : "/Users/alex/dev/drainspotting/.build/out/Intermediates.noindex/Drainspotting.build/Release/drainspot-p.build/Objects-normal/arm64/drainspot-primary-Bridging-header.pch",
+    "swift-dependencies" : "/Users/alex/dev/drainspotting/.build/out/Intermediates.noindex/Drainspotting.build/Release/drainspot-p.build/Objects-normal/arm64/drainspot-primary.swiftdeps"
+  },
+  "/Users/alex/dev/drainspotting/Sources/drainspot/main.swift" : {
+    "index-unit-output-path" : "/Drainspotting.build/Release/drainspot-p.build/Objects-normal/arm64/main.o",
+    "llvm-bc" : "/Users/alex/dev/drainspotting/.build/out/Intermediates.noindex/Drainspotting.build/Release/drainspot-p.build/Objects-normal/arm64/main.bc",
+    "object" : "/Users/alex/dev/drainspotting/.build/out/Intermediates.noindex/Drainspotting.build/Release/drainspot-p.build/Objects-normal/arm64/main.o"
+  }
+}
