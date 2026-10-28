@@ -292,6 +292,15 @@ public enum Humanizer {
         if info.contains("DHCP") { return "DHCP lease renewal" }
         if info.contains("com.apple.alarm") { return "system alarm" }
         if info.contains("backup") { return "backup schedule" }
+        // Duet activity ids look like
+        // "com.apple.dasd:502:com.apple.GenerativeFunctions.PeriodicTasks.SystemAppInstall.PostBuddy"
+        // — keep only the task's own name so the Wakes tab doesn't print a
+        // 90-character identifier at a non-technical reader.
+        if info.hasPrefix("com.apple.dasd:") {
+            let task = info.split(separator: ":").last.map(String.init) ?? info
+            let leaf = task.split(separator: ".").suffix(2).joined(separator: ".")
+            return "background task \(leaf)"
+        }
         return info
     }
 

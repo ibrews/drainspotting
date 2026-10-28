@@ -77,7 +77,15 @@ public enum CulpritAnalyzer {
             if $0.explanation.severity != $1.explanation.severity {
                 return $0.explanation.severity > $1.explanation.severity
             }
-            return $0.awakeHeldSeconds > $1.awakeHeldSeconds
+            if $0.awakeHeldSeconds != $1.awakeHeldSeconds {
+                return $0.awakeHeldSeconds > $1.awakeHeldSeconds
+            }
+            // Deterministic tiebreak: the app table auto-selects the first
+            // row, and ties (two 2-minute holds) came back in dictionary
+            // order, so the highlighted row and the detail pane could point
+            // at different culprits across two evaluations of the same report.
+            if $0.displayName != $1.displayName { return $0.displayName < $1.displayName }
+            return $0.id < $1.id
         }
     }
 
